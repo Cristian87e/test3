@@ -2,6 +2,25 @@
 <html>
 <head>
 	<title></title>
+	<style type="text/css">
+		h1
+		{
+		display: inline-block;
+		animation: myfirst 5s infinite alternate;
+		-webkit-animation: myfirst 5s infinite alternate; /* Safari and Chrome */
+		}
+		@keyframes myfirst
+		{
+		from {background: red;}
+		to {background: yellow;}
+		}
+
+		@-webkit-keyframes myfirst /* Safari and Chrome */
+		{
+		from {background: red;}
+		to {background: yellow;}
+		}
+	</style>
 </head>
 <body>
 	<h1 style="color:red;">Este site dice que tincho se la come</h1>
